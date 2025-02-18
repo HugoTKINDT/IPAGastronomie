@@ -27,7 +27,7 @@ Contribution :
 
 Pour connaître en détail les bonnes pratiques sur comment contribuer à un projet git (clonage du repo, branches, commit, etc), voir le fichier `contributing.md`. 
 
-Pour ce qui concerne ce projet en particulier, les détails sont assez simples. Un fichier `template_recette.tex` est fournit dans le repo. Pour ajouter une recette il suffit de créer un fichier .tex suivant ce template dans le bon dossier (par exemple un risotto végé sera dans `Salé/Végé/Risotto champignon parmesan.tex`). Vous n'avez alors plus qu'à ajouter toutes les informations sur le template afin de créer votre recette ! Si vous avez des suggestions de modifications du template, n'hésitez pas.
+Pour ce qui concerne ce projet en particulier, les détails sont assez simples. Un fichier `template_recette.tex` est fournit dans le repo. Pour ajouter une recette il suffit de créer un fichier .tex suivant ce template dans le bon dossier (par exemple un risotto végé sera dans `Salé/Végé/Risotto champignon carottes.tex`). Vous n'avez alors plus qu'à ajouter toutes les informations sur le template afin de créer votre recette ! Si vous avez des suggestions de modifications du template, n'hésitez pas.
 
 Une fois votre recette créée, il vous suffit de modifier le `main.tex` en ajoutant, dans la bonne section les commandes :
 
