@@ -1,0 +1,58 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}  % Pour la table des matières cliquable
+\geometry{margin=1in}
+
+\begin{document}
+
+\title{\textbf{IPAGastronomie}}
+\date{}  % Supprime l'affichage de la date
+
+\maketitle  % Génère uniquement le titre, sans auteur ni date
+
+\renewcommand{\thesection}{\arabic{section}}  % Corrige la numérotation des sections
+
+\tableofcontents  % Génère la table des matières
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%
+% PARTIE 1 : PLATS SALÉS
+%%%%%%%%%%%%%%%%%%%%%
+
+\part{Plats Salés}
+\setcounter{section}{0}
+
+\section{Végétariens}
+\newpage
+
+
+\section{Végans}
+\newpage
+
+
+\section{Autres}
+\newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%
+% PARTIE 2 : PLATS SUCRÉS
+%%%%%%%%%%%%%%%%%%%%%
+
+\part{Plats Sucrés}
+\setcounter{section}{0}
+
+\section{Végétariens}
+\newpage
+
+
+\section{Végans}
+\newpage
+
+
+\section{Autres}
+\newpage
+
+
+\end{document}
