@@ -40,7 +40,7 @@ Faire des modifications
 1. [Créez une branche](https://docs.github.com/fr/get-started/exploring-projects-on-github/contributing-to-a-project#creating-a-branch-to-work-on) de sujet pour vos commits.
 2. Faites des commits de manière logique.
 3. Assurez-vous que vos messages de commit suivent le format approprié :
-  > - Un résumé court (50 caractères ou moins) des modifications. Pour le projet IPAGastronomie, préférez le format `Ajout/Modification/Suppression <nom de la recette>`. Faites un commit par recette ajoutée/modifiée/supprimée (modification du `main.tex` comprise).
+  > - Un résumé court (50 caractères ou moins) des modifications. Pour le projet IPAGastronomie, préférez le format `Ajout/Modification/Suppression <nom de la recette>`. Faites un commit par recette ajoutée/modifiée/supprimée.
   > - Un texte explicatif plus détaillé, si nécessaire. Formatez-le pour qu’il ait environ 72 caractères par ligne. Dans certains contextes, la première ligne est traitée comme l'objet d'un e-mail et le reste du texte comme le corps. La ligne vide séparant le résumé du corps est essentielle (à moins que vous n'omitiez complètement le corps). Les outils comme rebase peuvent être perturbés si les deux sont mélangés. Si le commit corrige un bug, la description doit inclure le numéro du bug, par exemple : "fixe le bug #3".
 
 Soumettre les modifications
