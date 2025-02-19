@@ -74,4 +74,3 @@ Une fois cela fait, faites vos modifications puis ajoutez les sur votre repo en 
   - `main` étant le nom de la branche locale sur laquelle vous travaillez. Elle peut avoir un nom différent. Pour checker ça vous pouvez utiliser la commande `git branch`
   
 Ensuite il vous suffit de vous rendre sur GitHub pour faire une pull request et le tour est joué !
-
