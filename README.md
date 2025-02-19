@@ -38,6 +38,7 @@ Cette partie n'aura a être faite qu'une seule et unique fois. C'est le setup du
 3. [Forkez](https://docs.github.com/fr/get-started/exploring-projects-on-github/contributing-to-a-project#about-forking) ce dépôt. Pour le faire, il suffit d'utiliser le bouton en haut à droite de la page GitHub du projet. Cela va vous permettre d'avoir une version "à vous"/sur votre compte du repo.
 4. [Clonez](https://docs.github.com/fr/get-started/exploring-projects-on-github/contributing-to-a-project#clonage-dune-duplication-fork-sur-votre-ordinateur) cette fork sur votre ordinateur afin d'y avoir accès en local.
 5. Ajoutez le repository principal/originel (généralement appelé `upstream`) en local grâce à la commande `git remote add upstream <lien ssh du repo originel>`. Cela aura pour effet de créer un remote nommé upstream sur votre git local. Ce remote étant directement lié au repo originel, c'est à partir de lui que vous allez pouvoir récupérer la version la plus récente 
+6. Assurez vous que votre config git prenne en compte le rebasing grâce à la commande `git config pull.rebase true`
 
 Faire des modifications
 -----------------------
