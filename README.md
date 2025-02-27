@@ -101,12 +101,12 @@ Voici les étapes permettant de lier votre obsidian et github.
 			  ![screenshot](Image_bordel/Readme_img/Commit_msg.png)
 		2.  Shell command permet d'executer une commande shell permettant d'update votre branche à partir de la main
 			- Allez dans vos paramètres et dans le plugin shell command
-			- Faite ajouter une nouvelle commande et écrivez la commande suivante:  ![screenshot](Image_bordel/Readme_img/shell_settings.png)
+			- Faite ajouter une nouvelle commande et écrivez la commande suivante:  ![screenshot](Image_bordel/Readme_img/Shell_settings.png)
 			- Pour executer cette commande allez dans votre barre a gauche est cliquez sur le bouton d'invite de commande
 			  
 			  ![screenshot](Image_bordel/Readme_img/Command_button.png)
-			- En écrivant `shell` dans votre invite de commande, vous devriez voir votre commande nouvellement créé apparaître  ![screenshot](Image_bordel/Readme_img/shell_command.png)
-			- Ce message doit apparaitre en haut à droite: ![screenshot](Image_bordel/Readme_img/update_msg.png)
+			- En écrivant `shell` dans votre invite de commande, vous devriez voir votre commande nouvellement créé apparaître  ![screenshot](Image_bordel/Readme_img/Shell_command.png)
+			- Ce message doit apparaitre en haut à droite: ![screenshot](Image_bordel/Readme_img/Update_msg.png)
 			- Il se peut que vous deviez commit vos changement avant d'update votre branch à partir de la main
 		3.  Tag Wrangler vous permets de rechercher les tags marqué dans les fichiers de recette. Cliquez sur le bouton tag en haut à droite .
 		   ![screenshot](Image_bordel/Readme_img/Tag_button.png)
