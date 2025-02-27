@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sucré/Végé/test.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test"
+              "title": "README"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,9 +127,9 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
+                "sortOrder": "alphabetical",
+                "useHierarchy": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -181,9 +180,23 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "4f7b7b1e1afb1962",
+  "active": "59f8b5821958447e",
   "lastOpenFiles": [
+    "Pasted image 20250227154736.png",
+    "Pasted image 20250227154526.png.sb-837d2d46-1UlrVB",
+    "Pasted image 20250227154526.png",
+    "Pasted image 20250227154423.png",
+    "Pasted image 20250227153947.png",
     "README.md",
+    "Pasted image 20250227153947.png.sb-837d2d46-3rtzXv",
+    "Pasted image 20250227153933.png",
+    "Pasted image 20250227153526.png",
+    "Pasted image 20250227152908.png",
+    "Pasted image 20250227151744.png",
+    "Pasted image 20250227151559.png",
+    "Image_bordel/Cooking_img",
+    "Image_bordel/Readme_img",
+    "Image_bordel",
     "Sucré/Végé/test.md",
     "Salé/Autre/Test.md",
     "contributing.md"
