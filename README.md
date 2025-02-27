@@ -6,7 +6,7 @@ Ce repo git a pour but de mettre en commun des recettes pour les doctorants de l
 Prérequis
 ---------
 
-- Obsidian
+- Obsidian testtttttt
 
 Structure
 ---------
