@@ -103,7 +103,8 @@ Voici les étapes permettant de lier votre obsidian et github.
 			- Allez dans vos paramètres et dans le plugin shell command
 			- Faite ajouter une nouvelle commande et écrivez la commande suivante:  ![screenshot](Image_bordel/Readme_img/shell_settings.png)
 			- Pour executer cette commande allez dans votre barre a gauche est cliquez sur le bouton d'invite de commande
-			   ![screenshot](Image_bordel/Readme_img/Command_button.png)
+			  
+			  ![screenshot](Image_bordel/Readme_img/Command_button.png)
 			- En écrivant `shell` dans votre invite de commande, vous devriez voir votre commande nouvellement créé apparaître  ![screenshot](Image_bordel/Readme_img/shell_command.png)
 			- Ce message doit apparaitre en haut à droite: ![screenshot](Image_bordel/Readme_img/update_msg.png)
 			- Il se peut que vous deviez commit vos changement avant d'update votre branch à partir de la main
