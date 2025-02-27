@@ -87,7 +87,7 @@ Voici les étapes permettant de lier votre obsidian et github.
 	2. Trouvez sur votre explorateur de fichier ou se trouve votre vault principal qui s'appelle normalement "obsidian_vault" par défaut
 2. Suivez les indications de la Prise en main afin de créer votre clé SSH et de forker la Main branch 
 	1. Important: Pensez bien à clone votre branche dans le obsidian_vault
-3. Par défaut vous êtes dans votre obsidian vault et votre dossier cloné doit apparaitre dans l'application obsidian
+3. Par défaut vous êtes dans votre obsidian vault et votre dossier cloné doit apparaitre dans l'application obsidian (**IMPORTANT** les images ci-dessous ne sont visible que sur obsidian)
 	1. En bas à gauche de votre fenêtre vous pouvez voir dans quel vault vous vous trouvez. Cliquer dessus vous permet de changer de vault ![[Pasted image 20250227151559.png]]
 	2. Appuyer sur `Manage vaults` vous permet d'ouvrir la fenêtre suivante ou vous pouvez aussi retrouver l'emplacement de tout vos vaults: ![[Pasted image 20250227151744.png]]
 	3. Cliquez sur `Open folder as vault` pour créer votre dossier cloné en tant que vault a part
@@ -107,4 +107,9 @@ Voici les étapes permettant de lier votre obsidian et github.
 			- Ce message doit apparaitre en haut à droite: ![[Pasted image 20250227154923.png]]
 			- Il se peut que vous deviez commit vos changement avant d'update votre branch à partir de la main
 		3.  Tag Wrangler vous permets de rechercher les tags marqué dans les fichiers de recette. Cliquez sur le bouton tag en haut à droite . ![[Pasted image 20250227155140.png]]
-		4. 
+5. Demander une pull request pour merge vos modification de branche avec la main
+	1. Malheureusement il n'est pas possible de faire cela depuis obsidian. Vous allez devoir le faire sur votre page github de votre branche 
+	   ![[Pasted image 20250227155824.png]]
+	  ```
+![Alt text](Image_bordel/Readme_img/Pasted image 20250227155824.png?raw=true "Title")
+```
