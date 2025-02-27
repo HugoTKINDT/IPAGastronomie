@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "528bc65428c3cab9",
+        "id": "d5811f880bf52cb1",
         "type": "tabs",
         "children": [
           {
-            "id": "59f8b5821958447e",
+            "id": "c7d05cf97f656139",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -127,9 +127,9 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
+                "sortOrder": "alphabetical",
+                "useHierarchy": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -180,10 +180,28 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "59f8b5821958447e",
+  "active": "c7d05cf97f656139",
   "lastOpenFiles": [
-    "Sucré/Végé/test.md",
+    "Image_bordel/Readme_img/Vaults.png",
     "README.md",
+    "Image_bordel/Readme_img/Vaults_managed.png",
+    "Image_bordel/Readme_img/Plugins.png",
+    "Image_bordel/Readme_img/Auto_commit_button.png",
+    "Image_bordel/Readme_img/Auto_commit.png",
+    "Image_bordel/Readme_img/Commit_msg.png",
+    "Image_bordel/Readme_img/Shell_settings.png",
+    "Image_bordel/Readme_img/Command_button.png",
+    "Image_bordel/Readme_img/Shell_command.png",
+    "Image_bordel/Readme_img/Update_msg.png",
+    "Image_bordel/Readme_img/Tag_button.png",
+    "Image_bordel/Readme_img/Pasted.md",
+    "Image_bordel/Readme_img/Pasted image 20250227155140.png.sb-837d2d46-iUKT8g",
+    "Pasted image 20250227154526.png.sb-837d2d46-1UlrVB",
+    "Pasted image 20250227153947.png.sb-837d2d46-3rtzXv",
+    "Image_bordel/Cooking_img",
+    "Image_bordel/Readme_img",
+    "Image_bordel",
+    "Sucré/Végé/test.md",
     "Salé/Autre/Test.md",
     "contributing.md"
   ]
