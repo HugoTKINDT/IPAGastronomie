@@ -104,4 +104,7 @@ Voici les étapes permettant de lier votre obsidian et github.
 			- Pour executer cette commande allez dans votre barre a gauche est cliquez sur le bouton d'invite de commande
 			  ![[Pasted image 20250227154526.png]]
 			- En ecrivant `shell` dans votre invite de commande, vous devriez voir votre commande nouvellement créé apparaître ![[Pasted image 20250227154736.png]]
-			- 
+			- Ce message doit apparaitre en haut à droite: ![[Pasted image 20250227154923.png]]
+			- Il se peut que vous deviez commit vos changement avant d'update votre branch à partir de la main
+		3.  Tag Wrangler vous permets de rechercher les tags marqué dans les fichiers de recette. Cliquez sur le bouton tag en haut à droite . ![[Pasted image 20250227155140.png]]
+		4. 
