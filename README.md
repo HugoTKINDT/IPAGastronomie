@@ -93,7 +93,7 @@ Voici les étapes permettant de lier votre obsidian et github.
 	3. Cliquez sur `Open folder as vault` pour créer votre dossier cloné en tant que vault a part
 	4. Ouvrez votre vault nouvellement créé (regardez en bas à gauche pour vous en assurer)
 4. Installation des plugins nécessaires :
-	1. allez dans vos paramètres (roue crantée en bas à gauche), puis dans community plugin cliquez sur `browse`
+	1. Allez dans vos paramètres (roue crantée en bas à gauche), puis dans community plugin cliquez sur `browse`. Il est possible qu'au moment du clonage du repository, les plugins s'installent et se setup d'eux-mêmes. Si c'est le cas vous n'avez pas à suivre les informations ci-dessous. Dans tous les cas, vérifiez que tout marche bien de votre côté.
 	2. Cherchez ces plugins dans la bar de recherche puis téléchargez les et n'oubliez pas de les activer (attention les plugins sont local au vault. Vous aller devoir les reinstaller si vous changez de vault. Par exemple les plugins installé ici ne seront pas present dans votre obsidian vault et inversement): ![screenshot](Image_bordel/Readme_img/Plugins.png)
 		1. Git permet de faire la liaison de ce vault à votre branche sur github
 			- une page est disponible sur votre droite est permet de commit and push vos modification. Le seul button que vous allez surement utiliser est celui encadré en rouge. Il vous permet d'automatiquement update vos modification sur votre branche  ![screenshot](Image_bordel/Readme_img/Auto_commit_button.png)
