@@ -87,26 +87,28 @@ Voici les étapes permettant de lier votre obsidian et github.
 	2. Trouvez sur votre explorateur de fichier ou se trouve votre vault principal qui s'appelle normalement "obsidian_vault" par défaut
 2. Suivez les indications de la Prise en main afin de créer votre clé SSH et de forker la Main branch 
 	1. Important: Pensez bien à clone votre branche dans le obsidian_vault
-3. Par défaut vous êtes dans votre obsidian vault et votre dossier cloné doit apparaitre dans l'application obsidian (**IMPORTANT** les images ci-dessous ne sont visible que sur obsidian)
-	1. En bas à gauche de votre fenêtre vous pouvez voir dans quel vault vous vous trouvez. Cliquer dessus vous permet de changer de vault ![[Pasted image 20250227151559.png]]
-	2. Appuyer sur `Manage vaults` vous permet d'ouvrir la fenêtre suivante ou vous pouvez aussi retrouver l'emplacement de tout vos vaults: ![[Pasted image 20250227151744.png]]
+3. Par défaut vous êtes dans votre obsidian vault et votre dossier cloné doit apparaitre dans l'application obsidian
+	1. En bas à gauche de votre fenêtre vous pouvez voir dans quel vault vous vous trouvez. Cliquer dessus vous permet de changer de vault  ![screenshot](Image_bordel/Readme_img/Vaults.png)
+	2. Appuyer sur `Manage vaults` vous permet d'ouvrir la fenêtre suivante ou vous pouvez aussi retrouver l'emplacement de tout vos vaults:  ![screenshot](Image_bordel/Readme_img/Vaults_managed.png)
 	3. Cliquez sur `Open folder as vault` pour créer votre dossier cloné en tant que vault a part
 	4. Ouvrez votre vault nouvellement créé (regardez en bas à gauche pour vous en assurer)
 4. Installation des plugins nécessaires :
 	1. allez dans vos paramètres (roue crantée en bas à gauche), puis dans community plugin cliquez sur `browse`
-	2. Cherchez ces plugins dans la bar de recherche puis téléchargez les et n'oubliez pas de les activer (attention les plugins sont local au vault. Vous aller devoir les reinstaller si vous changez de vault. Par exemple les plugins installé ici ne seront pas present dans votre obsidian vault et inversement): ![[Pasted image 20250227152908.png]]
+	2. Cherchez ces plugins dans la bar de recherche puis téléchargez les et n'oubliez pas de les activer (attention les plugins sont local au vault. Vous aller devoir les reinstaller si vous changez de vault. Par exemple les plugins installé ici ne seront pas present dans votre obsidian vault et inversement):  ![screenshot](Image_bordel/Readme_img/plugins.png)
 		1. Git permet de faire la liaison de ce vault à votre branche sur github
-			- une page est disponible sur votre droite est permet de commit and push vos modification. Le seul button que vous allez surement utiliser est celui encadré en rouge. Il vous permet d'automatiquement update vos modification sur votre branche ![[Pasted image 20250227153526.png]]
-			- **IMPORTANT**: Dans les paramètres veuillez effacer vos message de commit automatique. Cela vous obligeras de mettre un message de commit avant de push expliquant vos modifications. Rien ne sera push dans que vous n'aurez pas remplis la zone de commit. ![[Pasted image 20250227153933.png]] ![[Pasted image 20250227153947.png]]
+			- une page est disponible sur votre droite est permet de commit and push vos modification. Le seul button que vous allez surement utiliser est celui encadré en rouge. Il vous permet d'automatiquement update vos modification sur votre branche  ![screenshot](Image_bordel/Readme_img/Auto_commit_button.png)
+			- **IMPORTANT**: Dans les paramètres veuillez effacer vos message de commit automatique. Cela vous obligeras de mettre un message de commit avant de push expliquant vos modifications. Rien ne sera push dans que vous n'aurez pas remplis la zone de commit. ![screenshot](Image_bordel/Readme_img/Auto_commit.png) 
+			  ![screenshot](Image_bordel/Readme_img/Commit_msg.png)
 		2.  Shell command permet d'executer une commande shell permettant d'update votre branche à partir de la main
 			- Allez dans vos paramètres et dans le plugin shell command
-			- Faite ajouter une nouvelle commande et écrivez la commande suivante: ![[Pasted image 20250227154423.png]]
+			- Faite ajouter une nouvelle commande et écrivez la commande suivante:  ![screenshot](Image_bordel/Readme_img/shell_settings.png)
 			- Pour executer cette commande allez dans votre barre a gauche est cliquez sur le bouton d'invite de commande
-			  ![[Pasted image 20250227154526.png]]
-			- En ecrivant `shell` dans votre invite de commande, vous devriez voir votre commande nouvellement créé apparaître ![[Pasted image 20250227154736.png]]
-			- Ce message doit apparaitre en haut à droite: ![[Pasted image 20250227154923.png]]
+			   ![screenshot](Image_bordel/Readme_img/Command_button.png)
+			- En écrivant `shell` dans votre invite de commande, vous devriez voir votre commande nouvellement créé apparaître  ![screenshot](Image_bordel/Readme_img/shell_command.png)
+			- Ce message doit apparaitre en haut à droite: ![screenshot](Image_bordel/Readme_img/update_msg.png)
 			- Il se peut que vous deviez commit vos changement avant d'update votre branch à partir de la main
-		3.  Tag Wrangler vous permets de rechercher les tags marqué dans les fichiers de recette. Cliquez sur le bouton tag en haut à droite . ![[Pasted image 20250227155140.png]]
+		3.  Tag Wrangler vous permets de rechercher les tags marqué dans les fichiers de recette. Cliquez sur le bouton tag en haut à droite .
+		   ![screenshot](Image_bordel/Readme_img/Tag_button.png)
 5. Demander une pull request pour merge vos modification de branche avec la main
 	1. Malheureusement il n'est pas possible de faire cela depuis obsidian. Vous allez devoir le faire sur votre page github de votre branche
 	   
