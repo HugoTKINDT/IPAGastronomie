@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template de recette.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Template de recette"
+              "title": "README"
             }
           }
         ],
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template de recette.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Template de recette"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template de recette.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Template de recette"
+              "title": "Outline of README"
             }
           },
           {
@@ -197,8 +197,8 @@
   },
   "active": "51cd470de43be18a",
   "lastOpenFiles": [
-    "README.md",
     "Template de recette.md",
+    "README.md",
     "Image_bordel/Readme_img/Vaults.png",
     "Image_bordel/Readme_img/Vaults_managed.png",
     "Image_bordel/Readme_img/Plugins.png",

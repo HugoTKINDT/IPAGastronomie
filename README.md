@@ -1,7 +1,7 @@
 IPAGastronomie
 ==============
 
-Ce repo git a pour but de mettre en commun des recettes pour les doctorants de l'IPAG. La solution adoptée dans un premier lieu est de tout faire sur LaTeX, si vous avez d'autres propositions gratuites qui ne nécessite pas d'installation lourdes vous pouvez les suggérer. Vous pouvez aussi suggérer des améliorations sur la mise en forme et le template. Le but est que chacun puisse ajouter ses propres recettes pour au final donner un pdf complet et agréable à lire pour que chacun puisse cuisiner ce qu'il veut !
+Ce repo git a pour but de mettre en commun des recettes pour les doctorants de l'IPAG. La solution adoptée est l'utilisation d'Obsidiant (voir ci-dessous). Vous pouvez aussi suggérer des améliorations sur la mise en forme et le template. Le but est que chacun puisse ajouter ses propres recettes afin que tout le monde puisse y avoir accès avec des outils de recherches par mots-clés pour faciliter la navigation.
 
 Prérequis
 ---------
@@ -11,8 +11,9 @@ Prérequis
 Structure
 ---------
 
-Le projet est organisé d'une façon qui permettra de d'ajouter/supprimer/modifier simplement une seule recette sans avoir un main.tex à rallonge. La structure des dossiers est faite pour pouvoir organiser les différents types de recettes (sucrées, salées, végé, végans, etc) au mieux et pour limiter la confusion lorsqu'il y en aura beaucoup. S'il vous plait, suivez cette structure de dossier afin d'éviter les conflits lors de la compilation du main.tex :
+Le projet est organisé d'une façon qui permettra de d'ajouter/supprimer/modifier simplement une seule recette sans avoir un main.tex à rallonge. La structure des dossiers est faite pour pouvoir organiser les différents types de recettes (sucrées, salées, végé, végans, etc) au mieux et pour limiter la confusion lorsqu'il y en aura beaucoup. S'il vous plait, suivez cette structure de dossier afin d'éviter les conflits lors de push et pull :
 
+- `Template de recette.md`: Le template sur lequel se baser pour écrire vos recette. Vous avez simplement à copier-coller ce template dans le dossier correspondant. Changez ensuite le nom "Template de recette" par celui de votre recette. Il ne vous reste alors plus qu'à éditier ce nouveau fichier pour écrire votre recette. Suivre ce template permettra d'avoir une mise en forme et des informations consistantes sur l'ensemble des recettes afin de faciliter la lecture pour tout le monde.
 - `Salé/`:
   - `Salé/Végé/`: Contient tous les fichiers (au format .md) des recettes salées et végétariennes
   - `Salé/Végan/`: Contient tous les fichiers (au format .md) des recettes salées et végans
@@ -108,7 +109,8 @@ Voici les étapes permettant de lier votre obsidian et github.
 			- Ce message doit apparaitre en haut à droite: ![screenshot](Image_bordel/Readme_img/Update_msg.png)
 			- Il se peut que vous deviez commit vos changement avant d'update votre branch à partir de la main
 		3.  Tag Wrangler vous permets de rechercher les tags marqué dans les fichiers de recette. Cliquez sur le bouton tag en haut à droite .
-		   ![screenshot](Image_bordel/Readme_img/Tag_button.png)Pour créer un tag, il vous suffit de mettre un # juste avant le nom du tag. S'IL VOUS PLAIT faites attention aux tags déjà existants lorsque vous voulez en ajouter, afin de ne pas se retrouver avec le tag "Tomate" écrit de trois manière différentes.
+		   ![screenshot](Image_bordel/Readme_img/Tag_button.png)
+		Pour créer un tag, il vous suffit de mettre un # juste avant le nom du tag. S'IL VOUS PLAIT faites attention aux tags déjà existants lorsque vous voulez en ajouter, afin de ne pas se retrouver avec le tag "Tomate" écrit de trois manière différentes.
 5. Demander une pull request pour merge vos modification de branche avec la main
 	1. Malheureusement il n'est pas possible de faire cela depuis obsidian. Vous allez devoir le faire sur votre page github de votre branche
 	   
