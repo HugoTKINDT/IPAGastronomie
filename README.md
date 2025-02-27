@@ -94,7 +94,7 @@ Voici les étapes permettant de lier votre obsidian et github.
 	4. Ouvrez votre vault nouvellement créé (regardez en bas à gauche pour vous en assurer)
 4. Installation des plugins nécessaires :
 	1. allez dans vos paramètres (roue crantée en bas à gauche), puis dans community plugin cliquez sur `browse`
-	2. Cherchez ces plugins dans la bar de recherche puis téléchargez les et n'oubliez pas de les activer (attention les plugins sont local au vault. Vous aller devoir les reinstaller si vous changez de vault. Par exemple les plugins installé ici ne seront pas present dans votre obsidian vault et inversement):  ![screenshot](Image_bordel/Readme_img/plugins.png)
+	2. Cherchez ces plugins dans la bar de recherche puis téléchargez les et n'oubliez pas de les activer (attention les plugins sont local au vault. Vous aller devoir les reinstaller si vous changez de vault. Par exemple les plugins installé ici ne seront pas present dans votre obsidian vault et inversement) ![screenshot](Image_bordel/Readme_img/plugins.png)
 		1. Git permet de faire la liaison de ce vault à votre branche sur github
 			- une page est disponible sur votre droite est permet de commit and push vos modification. Le seul button que vous allez surement utiliser est celui encadré en rouge. Il vous permet d'automatiquement update vos modification sur votre branche  ![screenshot](Image_bordel/Readme_img/Auto_commit_button.png)
 			- **IMPORTANT**: Dans les paramètres veuillez effacer vos message de commit automatique. Cela vous obligeras de mettre un message de commit avant de push expliquant vos modifications. Rien ne sera push dans que vous n'aurez pas remplis la zone de commit. ![screenshot](Image_bordel/Readme_img/Auto_commit.png) 
