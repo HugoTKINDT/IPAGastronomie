@@ -52,15 +52,14 @@ Faire des modifications
 Soumettre les modifications
 ---------------------------
 
-1. [Rebasez](https://docs.github.com/fr/get-started/using-git/about-git-rebase) votre travail sur la branche master du repo pour faciliter l'intégration et m'aider à maintenir un historique git propre.
-2. [Poussez](https://docs.github.com/fr/get-started/using-git/pushing-commits-to-a-remote-repository) vos modifications vers la branche de sujet dans votre fork du dépôt.
-3. [Soumettez une pull request](https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) vers le dépôt.
-4. Attendez que vos modifications soient examinées.
+1. [Poussez](https://docs.github.com/fr/get-started/using-git/pushing-commits-to-a-remote-repository) vos modifications vers la branche de sujet dans votre fork du dépôt.
+2. [Soumettez une pull request](https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) vers le dépôt.
+3. Attendez que vos modifications soient examinées.
 
 Résumé avec les commandes :
 ----------------------------
 
-Au début de votre session d'ajout, pensez à synchroniser votre repo git ainsi que votre branche locale avec le repo principal, afin d'éviter au maximum les embrouilles au niveau des versions. Pour ça c'est simple :
+Au début de votre session d'ajout, pensez à synchroniser votre repo git ainsi que votre branche locale avec le repo principal, afin d'éviter au maximum les embrouilles au niveau des versions. Si vous préférez utiliser Obsidian en long en large et en travers, ces commandes ne sont pas nécessaires, car elles sont déjà gérées (voir plus bas). Pour ça c'est simple :
 
 1. `git pull upstream main` 
   - `upstream` étant le nom du repository originel sur votre machine (voir plus haut)
@@ -109,7 +108,7 @@ Voici les étapes permettant de lier votre obsidian et github.
 			- Ce message doit apparaitre en haut à droite: ![screenshot](Image_bordel/Readme_img/update_msg.png)
 			- Il se peut que vous deviez commit vos changement avant d'update votre branch à partir de la main
 		3.  Tag Wrangler vous permets de rechercher les tags marqué dans les fichiers de recette. Cliquez sur le bouton tag en haut à droite .
-		   ![screenshot](Image_bordel/Readme_img/Tag_button.png)
+		   ![screenshot](Image_bordel/Readme_img/Tag_button.png)Pour créer un tag, il vous suffit de mettre un # juste avant le nom du tag. S'IL VOUS PLAIT faites attention aux tags déjà existants lorsque vous voulez en ajouter, afin de ne pas se retrouver avec le tag "Tomate" écrit de trois manière différentes.
 5. Demander une pull request pour merge vos modification de branche avec la main
 	1. Malheureusement il n'est pas possible de faire cela depuis obsidian. Vous allez devoir le faire sur votre page github de votre branche
 	   
