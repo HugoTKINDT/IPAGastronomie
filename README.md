@@ -109,7 +109,6 @@ Voici les étapes permettant de lier votre obsidian et github.
 		3.  Tag Wrangler vous permets de rechercher les tags marqué dans les fichiers de recette. Cliquez sur le bouton tag en haut à droite . ![[Pasted image 20250227155140.png]]
 5. Demander une pull request pour merge vos modification de branche avec la main
 	1. Malheureusement il n'est pas possible de faire cela depuis obsidian. Vous allez devoir le faire sur votre page github de votre branche 
-	   ![[Pasted image 20250227155824.png]]
-	  ```
-![Alt text](Image_bordel/Readme_img/Pasted image 20250227155824.png?raw=true "Title")
-```
+	   ![[Pull_request.png]]
+	2. 
+![screenshot](Image_bordel/Readme_img/Pull_request.png)
